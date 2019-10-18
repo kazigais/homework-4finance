@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component matches snapshot 1`] = `
+<Segment
+  className="form-segment"
+  raised={true}
+>
+  <Header
+    as="h1"
+  />
+  <Input
+    className="input"
+    labelPosition="right"
+    onChange={[Function]}
+    placeholder="Amount"
+    type="text"
+  >
+    <Label
+      basic={true}
+    >
+      <FaDollarSign />
+    </Label>
+    <input />
+    <Label>
+      .00
+    </Label>
+  </Input>
+  <CalendarInput
+    onChange={[Function]}
+    value={2013-03-01T00:00:00.000Z}
+  />
+  <Button
+    as="button"
+    basic={true}
+    className="calculate"
+    color="green"
+    data-test="calculator-button"
+    fluid={true}
+    onClick={[Function]}
+  >
+    Calculate
+  </Button>
+</Segment>
+`;

@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <Header
+    size="huge"
+  >
+    Micro-loan application
+  </Header>
+  <Segment
+    className="app-segment"
+    placeholder={true}
+  >
+    <Grid
+      columns={2}
+      stackable={true}
+      textAlign="center"
+    >
+      <Divider
+        vertical={true}
+      />
+      <GridRow
+        verticalAlign="middle"
+      >
+        <GridColumn
+          className="segment-column"
+        >
+          <Calculator
+            date={2017-02-14T12:51:48.000Z}
+            onSubmit={[Function]}
+            title="Fixed term loan"
+          />
+        </GridColumn>
+        <GridColumn
+          className="segment-column summary"
+        >
+          <Fade
+            collapse={true}
+            delay={500}
+            top={true}
+            when={false}
+          >
+            <Header
+              as="h2"
+              className="summary-title"
+            >
+              Total amount repayable: $
+            </Header>
+            <Header
+              as="h2"
+              className="summary-title"
+            >
+              Loan cost: $
+              NaN
+            </Header>
+            <Header
+              as="h2"
+              className="summary-title"
+            >
+              Repayment date:
+            </Header>
+            <Button
+              as="button"
+              onClick={[Function]}
+              primary={true}
+            >
+              Request loan
+            </Button>
+          </Fade>
+          <Fade
+            collapse={true}
+            top={true}
+            when={true}
+          >
+            <Header
+              as="h2"
+              className="summary-title"
+            >
+              Fill out your required loan details in the calculator
+            </Header>
+          </Fade>
+        </GridColumn>
+      </GridRow>
+    </Grid>
+  </Segment>
+  <LoanHistory
+    loanHistory={Array []}
+    onLoanExtend={[Function]}
+  />
+  <Modal
+    centered={true}
+    closeOnDimmerClick={true}
+    closeOnDocumentClick={false}
+    dimmer={true}
+    eventPool="Modal"
+    onClose={[Function]}
+  />
+</div>
+`;

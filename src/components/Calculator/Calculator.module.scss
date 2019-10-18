@@ -1,0 +1,14 @@
+.form-segment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px !important;
+  .input {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}
+
+.calculate {
+  max-width: 100% !important;
+}

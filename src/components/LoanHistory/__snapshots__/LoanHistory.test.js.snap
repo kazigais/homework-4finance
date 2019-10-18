@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoanHistory component matches snapshot 1`] = `
+<Table
+  as="table"
+  celled={true}
+  striped={true}
+>
+  <TableHeader
+    as="thead"
+  >
+    <TableRow
+      as="tr"
+      cellAs="td"
+    >
+      <TableHeaderCell
+        as="th"
+        colSpan="6"
+      >
+        Loan History
+      </TableHeaderCell>
+    </TableRow>
+  </TableHeader>
+  <TableHeader
+    as="thead"
+  >
+    <TableRow
+      as="tr"
+      cellAs="td"
+    >
+      <TableHeaderCell
+        as="th"
+      >
+        Amount
+      </TableHeaderCell>
+      <TableHeaderCell
+        as="th"
+      >
+        Repayable Amount
+      </TableHeaderCell>
+      <TableHeaderCell
+        as="th"
+      >
+        Extended
+      </TableHeaderCell>
+      <TableHeaderCell
+        as="th"
+      >
+        Payment date
+      </TableHeaderCell>
+      <TableHeaderCell
+        as="th"
+      >
+        Date issued
+      </TableHeaderCell>
+      <TableHeaderCell
+        as="th"
+      >
+        Options
+      </TableHeaderCell>
+    </TableRow>
+  </TableHeader>
+  <TableBody
+    as="tbody"
+  >
+    <TableRow
+      as="tr"
+      cellAs="td"
+      key="123"
+    >
+      <TableCell
+        as="td"
+      >
+        80
+      </TableCell>
+      <TableCell
+        as="td"
+      >
+        100
+      </TableCell>
+      <TableCell
+        as="td"
+      >
+        No
+      </TableCell>
+      <TableCell
+        as="td"
+      >
+        February 28, 2013
+      </TableCell>
+      <TableCell
+        as="td"
+      >
+        February 28, 2013
+      </TableCell>
+      <TableCell
+        as="td"
+      >
+        <Button
+          as="button"
+          content="Extend"
+          disabled={false}
+          onClick={[Function]}
+          primary={true}
+        />
+      </TableCell>
+    </TableRow>
+  </TableBody>
+</Table>
+`;
